@@ -1,0 +1,246 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* navbar */
+#navbar {
+  position: relative;
+  width: 70%;
+  height: 100%;
+  margin: 0px auto;
+}
+#navbar::before {
+  content: " ";
+  background-color:#cb9864;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  height: 100%;
+  width: 100%;
+  z-index: -1;
+  margin: 0px auto;
+}
+
+#navbar ul {
+  display: flex;
+  align-items: center;
+}
+#navbar ul li {
+  list-style: none;
+  margin: 20px 12px;
+}
+#navbar ul li a {
+  text-decoration: none;
+  font-size: 1.3rem;
+  font-family: "Baloo Bhai 2", cursive;
+  color: white;
+  border-radius: 4px;
+  padding: 1px 8px;
+}
+ #navbar ul li a:hover {
+  background-color: white;
+  color: black;
+}
+
+/* home */
+#home img {
+  height: 400px;
+  width: 400px;
+  margin: 3px 0px;
+}
+#home {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: 70%;
+  margin:auto;
+}
+#home::before {
+  content: " ";
+  background-color: rgb(225, 205, 243);
+  position: absolute;
+  height: 100%;
+  width: 70%;
+  z-index: -1;
+  opacity: 0.2;
+  margin: auto;
+}
+
+#home h1 {
+  padding: 30px 5px;
+  
+}
+#home p {
+  font-size: 1.3rem;
+  font-family: "Bree Serif", serif;
+  text-align: center;
+  padding: 20px 5px;
+}
+
+/* About me */
+#aboutme {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 70%;
+  height: 500px;
+  margin: auto;
+}
+#aboutme::before {
+  content: " ";
+  background: url(../img/bg-1.jpg) no-repeat center center/cover;
+  position: absolute;
+  top: 0px;
+  width: 100%;
+  height: 500px;
+  z-index: -1;
+  opacity: 0.8;
+  margin: auto;
+}
+#aboutme p {
+  color: white;
+  margin: 10px 20px;
+  font-size: 1.3rem;
+  font-family: "Bree Serif", serif;
+}
+#aboutme h1 {
+  color: white;
+  margin: 20px;
+}
+/* contact details */
+#contact {
+  position: relative;
+  width: 70%;
+  margin: auto;
+ 
+}
+#contact::before {
+  content: "";
+  background: url(../img/bg-2.jpg) no-repeat center center/cover;
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  margin: auto;
+  z-index: -1;
+  opacity: 0.9;
+}
+#contact-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 20px;
+}
+#contact-box input,
+#contact-box textarea {
+  display: block;
+  width: 400px;
+  font-size: 1.1rem;
+  padding: 4px;
+  border-radius: 9px;
+}
+
+#contact-box label {
+  font-size: 1.3rem;
+  font-family: "Bree Serif", serif;
+}
+#contact-box #submit {
+  position: relative;
+  left: 300px;
+}
+#contact-box #submit input {
+  background-color: white;
+  color: black;
+  display: inline-block;
+  width: 100px;
+  border-radius: 20px;
+  font-family: "Bree Serif", serif;
+  margin-top: 10px;
+  cursor: pointer;
+}
+/* projects */
+#projects {
+  height: 400px;
+  width: 70%;
+  margin: auto;
+}
+#projects::before {
+  content: " ";
+  background-color: blanchedalmond;
+  position: absolute;
+  height: 400px;
+  width: 70%;
+  margin: auto;
+  z-index: -1;
+  opacity: 0.59;
+}
+#projects h1 {
+  color:black;
+  padding: 20px 10px;
+}
+#projects p {
+  color:black;
+  font-size: 1.3rem;
+  font-family: "Bree Serif", serif;
+  margin: 10px 10px;
+}
+#projects a {
+  color: rgb(235, 124, 124);
+  text-decoration: underline;
+  padding: 20px;
+  font-size: 1.1rem;
+  font-family: "Bree Serif", serif;
+}
+
+/* skill set */
+#skills {
+    position: relative;  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 500px;
+    width: 70%;
+    margin: auto;
+}
+
+#skills::before {
+  content: " ";
+  background-color:blanchedalmond;
+  position: absolute;
+  height: 500px;
+  width: 100%;
+  z-index: -1;
+  opacity: 0.59;
+  margin: auto;
+}
+#skills img {
+  height: 200px;
+  width: 200px;
+  padding: 2px 10px;
+}
+#skills p {
+    margin: 10px 20px;
+    font-size: 1.1rem;
+    font-family: "Bree Serif", serif;
+
+}
+#skills div {
+    text-align: center;
+}
+
+/* utility classes */
+
+.center {
+  text-align: center;
+}
+.h-primary {
+  font-size: 2.3rem;
+  font-family: "Bree Serif", serif;
+}
+.current {
+  font-weight:bolder;
+}

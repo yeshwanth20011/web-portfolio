@@ -1,0 +1,85 @@
+html,body {
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden;
+}
+#navbar {
+  width: 100%;
+}
+#navbar ul li {
+  margin: 15px 5px;
+}
+#navbar ul li a {
+  font-size: 0.9rem;
+}
+#home {
+  flex-direction: column;
+  height: 500px;
+  width: 100%;
+}
+#home::before {
+  height: 710px;
+  width: 100%;
+}
+#home img {
+  height: 200px;
+  width: 200px;
+}
+#home p {
+  font-size: 0.8rem;
+  font-family: "Bree Serif", serif;
+  text-align: center;
+  padding: 5px 2px;
+}
+#aboutme {
+  margin: 2px 0px;
+  height: 600px;
+  width: 100%;
+}
+#aboutme::before {
+  height: 600px;
+  width: 100%;
+}
+#aboutme P{
+  font-size: 1.2rem;
+} 
+#contact {
+  width: 100%;
+}
+#contact::before {
+  width: 100%;
+}
+#contact-box input,
+#contact-box textarea {
+  width: 200px;
+  font-size: 0.6rem;
+  padding: 3px;
+}
+#contact-box #submit {
+  position: relative;
+  left: 150px;
+}
+#contact-box #submit input {
+  width: 50px;
+}
+#skills {
+    flex-direction: column;
+   width: 100%;
+}
+#skills img{
+  height: 100px;
+  width: 100px;
+}
+#projects {
+  width: 100%;
+}
+#projects::before {
+  width: 100%;
+}
+#projects p{
+  font-size: 1.15rem;
+}
+.h-primary {
+  font-size: 1.8rem;
+}
